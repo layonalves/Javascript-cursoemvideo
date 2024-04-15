@@ -1,0 +1,39 @@
+<!--construindo a estrutura de conteúdo com html-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <title>Meu primeiro programa</title>
+    
+    <!-- estilização de conteúdo da pagina com css-->
+    <style>
+        body{
+            background-color: rgb(64, 62, 179); 
+            color: white; /*Comentário em css*/
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <H1>Olá, Mundo!</H1>
+    <P>Já me livrei da maldição.</P>
+    
+    <!--fazendo a interação com o conteúdo da página usando javascript-->
+    <script>
+        var n1 = Number.parseInt(window.prompt("digite um número")) //sem o comando "parseint" ou "parsefloat", iria me retornar uma string.
+        var n2 = Number.parseInt(window.prompt("digite outro número"))//sem o comando "parseint" ou "parsefloat", iria me retornar uma string.
+        var n3 = Number(window.prompt("digite um 3º número, por favor."))//uma opção sem definição de interio ou real, qualquer numero será mostrado.
+        var s = n1 + n2 + n3 //o resultado será uma string, será necessário converter para 'number' utilizando 'parseint' ou 'parsefloat'.
+        window.alert(`a soma dos valores ${n1}, ${n2} e ${n3} é igual a ${s}`)
+        // (number + number) serve para adição.
+        // (string + string) tambpem serve para concatenação.
+        //caso eu quisesse fazer o movimento contrário, que seria converter um 'number' para 'string', bastaria colocar o valor desejado 
+        //no comando string(n) ou Ntostring()
+</script> 
+</body>
+</html>
+
+

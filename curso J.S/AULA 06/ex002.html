@@ -1,0 +1,35 @@
+<!--construindo a estrutura de conteúdo com html-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <title>Meu primeiro programa</title>
+    
+    <!-- estilização de conteúdo da pagina com css-->
+    <style>
+        body{
+            background-color: rgb(64, 62, 179); 
+            color: white; /*Comentário em css*/
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <H1>Olá, Mundo!</H1>
+    <P>Já me livrei da maldição.</P>
+    
+    <!--fazendo a interação com o conteúdo da página usando javascript-->
+    <script>
+        var nome = window.prompt("qual é o seu nome?")
+        //a variavel "nome" irá receber o contéudo que for escrito no prompt.
+
+        window.alert("é um prazer te conhecer, " + nome + "!") //concatenção
+        //irá exibir a mensagem de alerta com a variavel inclusa
+    </script> 
+</body>
+</html>
+
+
