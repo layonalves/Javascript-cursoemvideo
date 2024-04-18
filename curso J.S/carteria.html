@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carteira</title>
+    <style>
+        body{
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var idade = Number(window.prompt("digite o ano atual(yyyy): "))
+        var nasc =  Number(window.prompt("digite sua data de nascimento: "))
+        var carteira = idade - nasc
+        document.write(`idade igual a ${carteira} anos! </br>`)
+
+        carteira >= 18? document.write('<strong>APTO</strong> A TIRAR A CARTERIA'):document.write('<strong>NÃO APTO</strong> A TIRAR CARTERIA')
+    </script>
+</body>
+</html>

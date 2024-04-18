@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média aluno</title>
+    <style>
+        body{
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nota1 = Number(window.prompt("digite sua primeira nota: "))
+        var nota2 = Number(window.prompt("digite sua segunda nota: "))
+        var nota3 = Number(window.prompt("digite sua terceira nota: "))
+        var somanota = nota1 + nota2 + nota3 
+        var media = somanota / 3
+            document.write(`sua média é igual a: ${media.toFixed(2)}. </br>`)
+
+        media >= 6 ? document.write('Parabens! você está <strong>APROVADO!</strong>'):document.write('Infelizmente, você está <strong>REPROVADO.</strong>')
+    </script>
+</body>
+</html>
