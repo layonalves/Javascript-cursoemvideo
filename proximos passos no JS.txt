@@ -1,0 +1,8 @@
+-- fazer o curso de html 5 e css.
+-- estudar muito as funções, pois existem muitas outras funções
+-- estudar objetos. (fazer o curso de java/php)
+-- estudar modularização de códigos.
+-- estudar espressões regulares(RegEx).
+-- estudar JSON.
+-- estudar AJAX.
+-- nodeJS
